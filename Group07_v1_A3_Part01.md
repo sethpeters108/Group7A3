@@ -12,5 +12,32 @@ Construction Under Manitoba API (CUMAPI) is designed to provide current and upco
   https://cumapi.com/manitoba/{yyyy-mm-dd}
 
 ## Description of Resources
+When using the Neighbourhood endpoint the user will recieve all streets with construction
+{"neighbourhood": 
+{
+    "name": "name of street",
+    "direction": "cardinal direction",
+    "lane(s)": "lane with construction"
+}
+}
+
+When using the City endpoint the user will recieve all streets with construction
+{"city": 
+{
+    "name": "name of street",
+    "direction": "cardinal direction",
+    "lane(s)": "lane with construction"
+}
+}
+
+When using the Manitoba endpoint the user will recieve all streets with construction
+{"manitoba": 
+{
+    "name": "name of street",
+    "direction": "cardinal direction",
+    "lane(s)": "lane with construction"
+}
+}
 
 ## Sample Request and Response
+the actual sent back response and request
