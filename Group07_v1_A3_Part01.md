@@ -13,7 +13,7 @@ Construction Under Manitoba API (CUMAPI) is designed to provide current and upco
 
 ## Description of Resources
 When using the Neighbourhood endpoint the user will recieve all streets with construction sorted by neighbourhood
-'''
+
 {
 "city": [
   {
@@ -28,7 +28,7 @@ When using the Neighbourhood endpoint the user will recieve all streets with con
     }
   ]
 }
-'''
+
 {
 "neighbourhood": [
   {
