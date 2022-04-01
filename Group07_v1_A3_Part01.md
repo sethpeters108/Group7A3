@@ -14,72 +14,98 @@ Construction Under Manitoba API (CUMAPI) is designed to provide current and upco
 ## Description of Resources
 When using the Neighbourhood endpoint the user will recieve all streets with construction sorted by neighbourhood
 
-{
-"city": [
-  {
-    "city name": "city name",
-    "street": [
-       {
-         "street name": "name of street",
-         "direction": "cardinal direction",
-         "lane(s)": "lane with construction"
-       }
-      ]
-    }
-  ]
-}
+```json
 
 {
-"neighbourhood": [
-  {
-    neighbourhood name: neighbourhood name,
-    "street": [
-       {
-         "name": "name of street",
-         "direction": "cardinal direction",
-         "lane(s)": "lane with construction"
-       }
-      ]
-    }
-  ]
+
+   "city":[
+   
+      {
+         "city name":"city name",
+         "street":[
+            {
+               "street name":"name of street",
+               "direction":"cardinal direction",
+               "lane(s)":"lane with construction"
+              }
+           ]
+        }
+     ]
 }
+
+```
+
+```json
+
+{
+
+   "neighbourhood":[
+   
+      {
+         "neighbourhood name":"neighbourhood name",
+         "street":[
+            {
+               "name":"name of street",
+               "direction":"cardinal direction",
+               "lane(s)":"lane with construction"
+              }
+           ]
+        }
+     ]
+}
+
+```
 
 When using the City endpoint the user will recieve all streets with construction sorted by city
 
 
 When using the Manitoba endpoint the user will recieve all streets with construction in Manitoba
+
+```json
+
 {
-  "manitoba": {
-  "street": [
-    {
-      "street name": "name of street",
-      "direction": "cardinal direction",
-      "lane(s)": "lane with construction"
-    }
-    ]
-  } 
+
+   "manitoba":{
+   
+      "street":[
+      
+         {
+            "street name":"name of street",
+            "direction":"cardinal direction",
+            "lane(s)":"lane with construction"
+            }
+         ]
+     }
 }
+
+```
 
 ## Sample Request and Response
 the actual sent back response and request
 https://cumapi.com/neighbourhood/{yyyy-mm-dd}?yyyy-mm-dd=2022-4-1
 
+```json
+
 {
-"neighbourhood": [
-  {
-    "neighbourhood name": "Winnipeg North",
-    "street": [
-       {
-         "name": "Main Street",
-         "direction": "North",
-         "lane(s)": "Middle, right"
-       },
-       {
-         "name": "Leila Avenue",
-         "direction": "East",
-         "lane(s)": "Left"
-       }
-      ]
-    }
-  ]
+
+   "neighbourhood":[
+   
+      {
+         "neighbourhood name":"Winnipeg North",
+         "street":[
+            {
+               "name":"Main Street",
+               "direction":"North",
+               "lane(s)":"Middle, right"
+            },
+            {
+               "name":"Leila Avenue",
+               "direction":"East",
+               "lane(s)":"Left"
+               }
+            ]
+         }
+     ]
 }
+
+```
