@@ -81,7 +81,6 @@ When using the Manitoba endpoint the user will recieve all streets with construc
 ```
 
 ## Sample Request and Response
-the actual sent back response and request
 https://cumapi.com/neighbourhood/{yyyy-mm-dd}?yyyy-mm-dd=2022-4-1
 
 ```json
