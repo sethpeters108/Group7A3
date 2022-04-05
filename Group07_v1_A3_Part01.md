@@ -18,6 +18,28 @@ When using the Neighbourhood endpoint the user will recieve all streets with con
 
 {
 
+   "neighbourhood":[
+   
+      {
+         "neighbourhood name":"neighbourhood name",
+         "street":[
+            {
+               "name":"name of street",
+               "direction":"cardinal direction",
+               "lane(s)":"lane with construction"
+              }
+           ]
+        }
+     ]
+}
+
+```
+When using the City endpoint the user will recieve all streets with construction sorted by city
+
+```json
+
+{
+
    "city":[
    
       {
@@ -35,28 +57,6 @@ When using the Neighbourhood endpoint the user will recieve all streets with con
 
 ```
 
-```json
-
-{
-
-   "neighbourhood":[
-   
-      {
-         "neighbourhood name":"neighbourhood name",
-         "street":[
-            {
-               "name":"name of street",
-               "direction":"cardinal direction",
-               "lane(s)":"lane with construction"
-              }
-           ]
-        }
-     ]
-}
-
-```
-
-When using the City endpoint the user will recieve all streets with construction sorted by city
 
 
 When using the Manitoba endpoint the user will recieve all streets with construction in Manitoba
