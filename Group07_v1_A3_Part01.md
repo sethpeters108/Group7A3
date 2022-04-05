@@ -12,7 +12,7 @@ Construction Under Manitoba API (CUMAPI) is designed to provide current and upco
   https://cumapi.com/manitoba/{yyyy-mm-dd}
 
 ## Description of Resources
-When using the Neighbourhood endpoint the user will recieve all streets with construction sorted by neighbourhood
+When using the Neighbourhood endpoint the user will recieve all streets with construction sorted by neighbourhood.
 
 ```json
 
@@ -34,7 +34,7 @@ When using the Neighbourhood endpoint the user will recieve all streets with con
 }
 
 ```
-When using the City endpoint the user will recieve all streets with construction sorted by city
+When using the City endpoint the user will recieve all streets with construction sorted by city.
 
 ```json
 
@@ -59,7 +59,7 @@ When using the City endpoint the user will recieve all streets with construction
 
 
 
-When using the Manitoba endpoint the user will recieve all streets with construction in Manitoba
+When using the Manitoba endpoint the user will recieve all streets with construction in Manitoba.
 
 ```json
 
